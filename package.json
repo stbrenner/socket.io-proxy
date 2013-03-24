@@ -1,0 +1,21 @@
+{
+  "author": "Stephan Brenner (http://www.stephan-brenner.com)",
+  "name": "socket.io-proxy",
+  "description": "socket.io-proxy extends the socket.io client so that it can connect through a proxy server",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ymx/socket.io-proxy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ymx/socket.io-proxy.git"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
