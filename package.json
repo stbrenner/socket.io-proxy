@@ -13,7 +13,11 @@
     "test": "mocha test/*.js"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "",
+    "should": "",
+    "socket.io-client": ""
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
