@@ -7,7 +7,7 @@ Installation
 ------------
 
 ```shell
-npm install socket.io-proxy
+$ npm install socket.io-proxy
 ```
 
 How to use
