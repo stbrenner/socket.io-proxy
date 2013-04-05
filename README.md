@@ -1,14 +1,23 @@
 socket.io-proxy
 ===============
 
-socket.io client for node.js that can connect through a proxy server.
+A socket.io client for node.js that can connect through a proxy server.
+
+Installation
+------------
+
+```shell
+npm install socket.io-proxy
+
+```
 
 How to use
 ----------
 
 ### Based on environment variable
 
-socket.io-proxy will automatically apply the proxy settings based on the http_proxy environment variable. If no proxy is defined, a direct connection to the destination will be established.
+socket.io-proxy will automatically apply the proxy settings based on the http\_proxy environment variable. 
+If no proxy is defined, a direct connection to the destination will be established.
 
 ```ruby
 var proxy = require('socket.io-proxy');
@@ -26,11 +35,9 @@ socket.on('connect', function () {
 });
 ```
 
-On Linux you can specify the environment variable in the following way:
-export http_proxy=http://proxy:8080
+On Linux you can specify the environment variable in the following way: `export http\_proxy=http://proxy:8080`
 
-On Windows:
-set HTTP_PROXY=http://proxy:8080
+On Windows: `set HTTP\_PROXY=http://proxy:8080`
 
 
 ### Explicit proxy definition
