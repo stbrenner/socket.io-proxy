@@ -35,9 +35,9 @@ socket.on('connect', function () {
 });
 ```
 
-On Linux you can specify the environment variable in the following way: `export http\_proxy=http://proxy:8080`
+On Linux you can specify the environment variable in the following way: `export http_proxy=http://proxy:8080`
 
-On Windows: `set HTTP\_PROXY=http://proxy:8080`
+On Windows: `set HTTP_PROXY=http://proxy:8080`
 
 
 ### Explicit proxy definition
