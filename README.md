@@ -8,7 +8,6 @@ Installation
 
 ```shell
 npm install socket.io-proxy
-
 ```
 
 How to use
