@@ -48,7 +48,7 @@ You can also directly specify the proxy server using the init function.
 ```ruby
 var proxy = require('socket.io-proxy');
 
-proxy.init('http://proxy.8080');
+proxy.init('http://proxy:8080');
 var socket = proxy.connect('http://destination');
 
 socket.on('connect', function () {
