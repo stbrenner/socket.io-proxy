@@ -13,7 +13,7 @@
     "test": "mocha test/*.js"
   },
   "dependencies": {
-    "socket.io-client": "0.9.16"
+    "socket.io-client": "git+https://github.com/OferE/socket.io-client.git#0.9"
   },
   "devDependencies": {
     "mocha": "",
