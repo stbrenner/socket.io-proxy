@@ -2,7 +2,7 @@
   "author": "Stephan Brenner (http://www.stephan-brenner.com)",
   "name": "socket.io-proxy",
   "description": "socket.io client for node.js that can connect through a proxy server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/ymx/socket.io-proxy",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "test": "mocha test/*.js"
   },
   "dependencies": {
-    "socket.io-client": ""
+    "socket.io-client": "git+https://github.com/OferE/socket.io-client.git#0.9"
   },
   "devDependencies": {
     "mocha": "",
