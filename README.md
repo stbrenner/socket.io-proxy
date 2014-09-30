@@ -3,7 +3,7 @@ socket.io-proxy
 
 A socket.io client for node.js that can connect through a proxy server.
 
-[![Build Status](https://www.travis-ci.org/ymx/socket.io-proxy.png?branch=master)](https://www.travis-ci.org/ymx/socket.io-proxy)
+[![Build Status](https://travis-ci.org/ymx/socket.io-proxy.png?branch=master)](https://travis-ci.org/ymx/socket.io-proxy)
 
 Installation
 ------------
