@@ -8,7 +8,7 @@ describe('proxy.connect', function() {
             it('connects to the destination through the proxy', function() {
                 process.env.http_proxy = 'http://proxy:8081';
                 proxy.init();
-                var socket = proxy.connect('https://destination');
+                var socket = proxy.connect('https://www.google.com');
                 should.exist(socket);
             });
         });
@@ -16,7 +16,7 @@ describe('proxy.connect', function() {
             it('directly connects to the destination', function() {
                 process.env.http_proxy = '';
                 proxy.init();
-                var socket = proxy.connect('http://destination');
+                var socket = proxy.connect('http://www.google.com');
                 should.exist(socket);
             });
         });
@@ -24,7 +24,7 @@ describe('proxy.connect', function() {
     describe('with proxy server URL', function() {
         it('connects to the specified proxy server', function() {
             proxy.init('http://proxy:8080');
-            var socket = proxy.connect('http://destination');
+            var socket = proxy.connect('http://www.google.com');
             should.exist(socket);
         });
     });
